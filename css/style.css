@@ -1,0 +1,711 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333333;
+	font-size:12px;
+}
+
+
+#main-div{
+	width:960px;
+}
+
+h4{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#75c226;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+/*------------------------------------HEADER PART CSS HERE-------------------------*/
+
+#div-logo{
+	background-image:url(../images/logo.png);
+	height:123px;
+	background-repeat:no-repeat;
+	background-position:left;
+}
+
+
+#div-search{
+	float:right;
+	padding-top:20px;
+	width:225px;
+}
+
+#div-search input{
+	border:1px solid #dfeaec;
+	width:175px;
+	height:19px;
+	-moz-border-radius:5px;
+	padding:2px;
+}
+
+#div-search img{
+	border:none;
+}
+
+#div-menu{
+	float:right;
+	padding-left:300px;
+	text-align:left;
+	padding-top:30px;
+	/*margin:90px 0px 0px 370px;*/
+	color:#788484;
+	font-weight:bold;
+	word-spacing:0px;
+	text-transform:uppercase;
+}
+
+#rok{
+	text-align:left;
+	color:#788484;
+	font-weight:bold;
+	word-spacing:0px;
+	text-transform:uppercase;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+#div-menu a{
+	text-decoration:none;
+	color:#788484;	
+}
+
+#div-menu a:hover{
+	text-decoration:underline;
+	color:#2fc6f8;
+}
+
+#div-menu span{
+	cursor:pointer;
+}
+
+#div-menu span:hover{
+	text-decoration:underline;
+	color:#2fc6f8;
+}
+/*------------------------------------BODY PART CSS HERE-------------------------*/
+#main-bd{
+	width:700px;
+	float:left;
+}
+
+#div-website{
+	float:left;
+	border:1px solid #cccccc;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	background-image:url(../images/website-grad.gif);
+	background-position:left top;
+	background-repeat:repeat-x;
+	height:210px;
+}
+
+#website-padding{
+	padding:10px 13px 0px 5px;
+}
+
+#website-cnt{
+	padding-top:8px;
+	padding-left:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#353535;
+}
+
+#website-cnt span{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#999999;
+}
+
+#website-cnt h4{
+	color:#2fc6ff;
+	text-transform:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-top:8px;
+	font-weight:bold;
+	padding-bottom:8px;
+}
+
+#website-cnt img{
+	padding-top:10px;
+	border:none;
+	cursor:pointer;
+}
+/*-----------------------BOOK PUBLISHING----------------------------*/
+#div-book{
+	float:left;
+	border:1px solid #cccccc;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	background-image:url(../images/book-grad.gif);
+	background-position:left top;
+	background-repeat:repeat-x;
+	height:210px;
+}
+
+#book-padding{
+	padding:10px 13px 0px 5px;
+}
+
+#book-cnt{
+	padding-top:8px;
+	padding-left:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#353535;
+}
+
+#book-cnt span{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#999999;
+}
+
+#book-cnt h4{
+	color:#f0a12e;
+	text-transform:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-top:8px;
+	font-weight:bold;
+	padding-bottom:8px;
+}
+
+#book-cnt img{
+	padding-top:10px;
+	border:none;
+	cursor:pointer;
+
+}
+
+/*-----------------------FILM MAKING STARTS HERE----------------------------*/
+#div-film{
+	border:1px solid #cccccc;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	background-image:url(../images/film.gif);
+	background-position:left top;
+	background-repeat:repeat-x;
+	height:210px;
+}
+
+#film-padding{
+	padding:10px 13px 0px 5px;
+}
+
+#film-cnt{
+	padding-top:8px;
+	padding-left:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#353535;
+}
+
+#film-cnt span{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#999999;
+}
+
+#film-cnt h4{
+	color:#99d638;
+	text-transform:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-top:8px;
+	font-weight:bold;
+	padding-bottom:8px;
+}
+
+#film-cnt img{
+	padding-top:10px;
+	border:none;
+	cursor:pointer;
+}
+
+
+/*--------------------------------FILM MAKING END HERE-------------------------------*/
+#film-making{
+	width:218px;
+	float:right;
+}
+
+#story-writing{
+	width:218px;
+}
+/*------------------------------------MAIN BODY CONTENT PART CSS HERE-------------------------*/
+#div-intro2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:justify;
+	color:#353535;
+	padding:0px 15px 0px 15px;
+	background-position:center center;
+
+}
+#div-intro2 a{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#34ccff;
+	font-weight:bold;
+	font-size:12px;
+	text-decoration:none;
+}
+
+#div-intro2 a:hover{
+	color:#75c226;
+	text-decoration:underline;
+}
+#div-intro2 img{
+	margin-left:10px;
+	border:0px solid #CCC;
+}
+#div-intro{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:justify;
+	color:#353535;
+	border:1px solid #cccccc;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-ms-border-radius:10px;	
+	-o-border-radius:10px;
+	padding:22px 15px 20px 15px;
+	background-position:center center;
+
+}
+#div-intro img{
+	margin-left:10px;
+	border:0px solid #CCC;
+}
+#div-intro h4{
+	color:#75c226;
+	padding-bottom:0px;
+}
+
+#div-intro ul{
+	margin-bottom:0px;
+	list-style:none;
+	margin-left:-15px;
+	list-style-image:url(../images/bullet.jpg);
+}
+
+#div-intro a{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#34ccff;
+	font-weight:bold;
+	font-size:12px;
+	text-decoration:none;
+}
+
+#div-intro a:hover{
+	color:#75c226;
+	text-decoration:underline;
+}
+
+
+#div-recent{
+	margin-top:30px;
+	background-image:url(../images/bg-services.gif);
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:285px;
+}
+
+#div-recent table tr td{
+	padding-top:5px;
+}
+
+#div-recent a{
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#div-recent a:hover{
+	text-decoration:underline;
+	display:block;
+}
+
+#div-project{
+	font-family:Arial, Helvetica, sans-serif;
+	padding:40px 15px 19px 27px;
+	text-align:justify;
+}
+
+#div-project ul{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#ee8f29;
+	margin-left:220px;
+	list-style:decimal;
+	margin-top:0px;
+	line-height:20px;
+}
+
+#div-project ul li{
+	margin-left:30px;
+}
+
+#div-project ul li a{
+	color:#ee8f29;
+}
+
+#div-project ul li a:hover{
+	color:#000000;
+}
+
+#div-project h4{
+	color:#30c7ff;
+}
+
+#div-project h5{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#87cd39;
+	text-decoration:underline;
+	margin-top:10px;
+	margin-bottom:15px;
+}
+
+#div-project img{
+	margin-right:30px;
+	float:left;
+	border:none;
+}
+
+
+/*------------------------------------MENU PART CSS HERE-------------------------*/
+#main-menu{
+	font-family:Arial, Helvetica, sans-serif;
+	border:1px solid #cccccc;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-ms-border-radius:10px;	
+	-o-border-radius:10px;
+	padding:22px 15px 20px 15px;
+	color:#999999;
+	background-image:url(../images/watermark.gif);
+	background-color:#f6f7f4;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+#main-menu h4{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#75c226;
+	margin-top:0px;
+	margin-bottom:5px;
+	margin-left:12px;
+}
+
+#main-menu ul{
+	margin-bottom:0px;
+	list-style:none;
+	margin-left:-10px;
+	list-style-image:url(../images/bullet.jpg);
+}
+
+#main-menu ul li a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#2ab4e3;
+	text-transform:uppercase;
+	line-height:28px;
+	text-decoration:none;
+}
+
+#main-menu ul li a:hover{
+	text-decoration:underline;
+}
+
+#main-menu ul li span{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#2ab4e3;
+	text-transform:uppercase;
+	line-height:28px;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+#main-menu ul li span:hover{
+	text-decoration:underline;
+}
+#div-login{
+	border:1px solid #cccccc;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	height:100px;
+	padding:5px;
+}
+
+#div-login img{
+	border:none;
+}
+
+#div-news-letter{
+	padding:28px 24px 0px 32px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#2ab4e3;
+	font-weight:bold;
+}
+
+#div-news-letter input{
+	width:187px;
+	border:1px solid #cccccc;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	margin-top:10px;
+	height:22px;
+}
+
+.submit{
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#2fc7f9;
+	border: 1px solid #7cc531;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+/*-----------------------------------FOR PAGES CSS STARTS HERE-------------------------*/
+#create-page{
+	width:700px;
+	padding-top:2px;
+	line-height:20px;
+	text-align:justify;
+}
+
+#create-page h4{
+	color:#30c7ff;
+	font-size:14px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	padding-top:10px;
+	border-top:1px dashed #666666;
+	border-bottom:1px dashed #666666;
+}
+
+#create-page img{
+	margin:0px 0px 5px 10px;
+	border:1px solid #666666;
+	padding:2px;
+}
+
+#create-page p{
+	margin-top:10px;
+}
+
+#create-page h3{
+	color:#30c7ff;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	padding-top:15px;
+	text-transform:uppercase;
+	border-bottom:1px dashed #666666;
+}
+
+#create-page a{
+	line-height:15px;
+	color:#333333;
+	text-decoration:none;	
+}
+
+#create-page a:hover{
+	text-decoration:underline;
+	font-size:13px;
+}
+
+#create-page table tr td img{
+	border:none;
+}
+
+#create-page table tr td img:hover{
+	-moz-opacity:0.00;
+	opacity:0.30;
+	border:1px solid #333333;
+	height:90px;
+	width:80px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+}
+
+
+/*------------------------------------FOTTER PART CSS HERE-------------------------*/
+#main-menu2{
+	font-family:Arial, Helvetica, sans-serif;
+	border:1px solid #cccccc;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-ms-border-radius:10px;	
+	-o-border-radius:10px;
+	padding:22px 15px 20px 15px;
+	color:#999999;
+	background-image:url(../images/watermark.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+#main-menu2 a{
+	text-decoration:none;
+}
+#main-menu2 a:hover{
+	text-decoration:underline;
+}
+
+#ftr-clr{
+	height:7px;
+	background-color:#e9e9eb;
+	margin-bottom:5px;
+}
+
+#fotter-main{
+	height:62px;
+	padding:30px 0px 0px 20px;
+	text-align:left;
+	text-transform:uppercase;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000000;
+	background-color:#e9e9eb;
+}
+
+#fotter-main span{
+	font-weight:bold;
+}
+
+div-loginform{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666666;
+}
+
+
+/*--------------------CSS USED TO CHANGE THE LINK HOVER MESSAGE EFFECT-------------------*/
+/*#fixedtipdiv{
+position:absolute;
+padding:7px;
+border:1px solid #FF8000;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+font-family:Arial, Helvetica, sans-serif;
+font-style:italic;
+font-size:11px;
+font-weight:bold;
+line-height:18px;
+z-index:100;
+color:#ffffff;
+text-align:justify;
+/*background-image:url(../images/pop-grad.gif);
+background-position:top;
+background-repeat:repeat-x repeat-y;
+}*/
+
+
+#fixedtipdiv{
+position:absolute;
+padding: 2px;
+border:1px solid black;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+font:Arial, Helvetica, sans-serif;
+font-size:12px;
+line-height:18px;
+z-index:100;
+color:#ffffff;
+text-align:justify;
+padding:2px;
+}
+
+
+/*--------------------------------CSS USED TO CHANGE THE INDEX PAGE LOAD EFFECTS--------------------------*/
+
+/*.intro{
+position:absolute;
+left:0;
+top:0;
+layer-background-color:green;
+background-color:green;
+border:0.1px solid green;
+z-index:10;
+}*/
+
+
+/*--------------------------------CSS FOR DOWNLOADS PAGE--------------------------*/
+#download{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#75c226;
+	font-weight:bold;
+}
+
+#download img{
+	border:none;
+	margin-top:10px;
+	cursor:pointer;
+}
+
+#download img:hover{
+	-moz-opacity:0.00;
+	opacity:0.30;
+	border:1px solid #333333;
+	height:70px;
+	width:90px;
+	-moz-border-radius:8px;
+}
+
+.div-height{
+	height:100px;
+	border-bottom:1px dashed #333333;
+}
+
+.padding-20{
+	padding-top:10px;
+}
+
+
+/********** slider **********/
+.slider { 
+	margin:0 auto; 
+	padding:0; 
+	height:337px; 
+}
+.slider2 { 
+	margin:0 auto; 
+	padding:0; 
+}
+.slice12 { 
+	margin:0 auto; 
+	width:957px; 
+	padding:0; 
+	background:url(images/bg_simple2.gif) top no-repeat; 
+	height:93px; 
+}
+.slice12 h2 { 
+	font: normal 40px Georgia, "Times New Roman", Times, serif; 
+	color:#1c1d1c; 
+	padding:20px 40px; 
+	margin:0; 
+}
+
